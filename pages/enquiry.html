@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>صفحة</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  </head>
+  <body>
+    <h1>جدول الدورات</h1>
+    <p>جدول الدورات المتاحة في المعهد</p>
+    <nav>
+      <form>
+        <h2>استفسار عن الكورس</h2>
+        <br /><br />
+        <label for="name">الاسم الكامل:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder=" عبدالله "
+        /><br /><br />
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" name="email" id="email" /><br /><br />
+
+        <label for="phone">رقم الهاتف:</label>
+        <input type="tel" name="phone" id="phone" /><br /><br />
+        <select name="course">
+          <option value="choose">اختر الكورس</option>
+          <option value="HTML Content">HTML Content</option>
+          <option value="HTML Forms">HTML Forms</option></select
+        ><br /><br />
+        <label for="seats">عدد المقاعد:</label>
+        <input
+          type="number"
+          name="seats"
+          id="seats"
+          placeholder="1"
+        /><br /><br />
+        <label for="date">التاريخ المفضل:</label>
+        <input type="date" name="date" id="date" /><br /><br />
+        <label for="message">نص الاستفسار:</label>
+        <textarea
+          name="message"
+          id="message"
+          placeholder="اكتب رسالتك هنا"
+        ></textarea
+        ><br /><br />
+        <button type="submit">إرسال</button><br /><br />
+      </form>
+      <a href="../index.html">الرئيسية</a><br />
+      <a href="schedule.html">الجدول</a><br />
+      <a href="enquiry.html">اتصل بنا</a>
+    </nav>
+  </body>
+</html>
